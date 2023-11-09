@@ -36,3 +36,22 @@
   border-radius: 10px;
   text-align: center;
 }
+
+#pricing, #pricing_plan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#discount {
+  display: flex;
+  color: #e59174;
+  background-color: #fef2e8;
+  border-radius: 10px;
+  font-size: .8rem;
+  width: 50px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+}
